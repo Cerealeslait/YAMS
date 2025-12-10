@@ -88,13 +88,3 @@ dotnet test
 - Pour des erreurs de compilation, vérifier les `using` et la version de C# ciblée dans le `.csproj`.
 - Sur Linux, l'exécution d'un exécutable .NET peut se faire via `dotnet <nom>.dll` si vous avez une build SDK.
 
-## Contribuer
-
-- Ouvrez une issue pour demander des fonctionnalités ou signaler des bugs.
-- Faites une branche, ajoutez des commits clairs, puis proposez une pull request.
-
----
-
-Si tu veux, je peux :
-- adapter le `README.md` pour préciser les commandes exactes si tu me dis s'il y a un fichier `.csproj` et son nom ;
-- ou créer directement un projet `.csproj` minimal pour permettre un `dotnet run` immédiat.
